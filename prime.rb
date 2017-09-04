@@ -20,7 +20,8 @@ odd_numbers = []
 is_it_odd? = true
 
   if number % 2 == 0
-    is_it_odd = false
+    is_it_odd? = false
   end
+    is_it_odd? = true
 
 end

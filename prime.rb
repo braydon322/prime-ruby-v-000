@@ -7,7 +7,7 @@ new_array = []
         false
     end
 }
-return new_array
+true
 end
 
 # def prime?(number)

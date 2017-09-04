@@ -21,7 +21,8 @@ is_it_odd? = true
 
   if number % 2 == 0
     is_it_odd? = false
-  end
+  else
     is_it_odd? = true
+  end
 
 end

@@ -15,8 +15,9 @@ def prime?(number)
       end
       i += 2
     end
+    true
   end
-  true
+  
 end
 
     # i = 5

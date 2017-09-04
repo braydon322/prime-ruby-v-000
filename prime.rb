@@ -19,10 +19,10 @@ def prime?(number)
 odd_numbers = []
 is_it_odd? = true
 
-if number % 2 == 0
-  is_it_odd = false
-else
-  is_it_odd = true
-end
+  if number % 2 == 0
+    is_it_odd = false
+  else
+    is_it_odd = true
+  end
 
 end

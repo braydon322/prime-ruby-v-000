@@ -27,7 +27,7 @@ is_it_odd = true
   else
     is_it_odd = true
   end
-  
+
   if is_it_odd = true
     if number <= 1
       false
@@ -42,5 +42,5 @@ is_it_odd = true
     end  
   else
     return is_it_prime
-  end  
+  end
 end

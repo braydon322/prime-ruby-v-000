@@ -26,4 +26,5 @@ def prime?(number)
   elsif number < 2
     false
   end
+  number = 1
 end

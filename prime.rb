@@ -7,10 +7,7 @@ new_array = []
         new_array << counter
     end
 }
-if new_array == []
-  true
-else
-  false
+return new_array
 end
 end
 

@@ -22,6 +22,6 @@ else
     if is_it_prime
       true
     end
-
+end
 
 end

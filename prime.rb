@@ -19,7 +19,7 @@ def prime?(number)
 odd_numbers = []
 
   if number % 2 == 0
-    !is_it_odd?
+    is_it_odd? = false
   else
     is_it_odd?
   end

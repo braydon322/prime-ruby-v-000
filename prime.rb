@@ -5,11 +5,10 @@ new_array = []
 (1..max_value).each{|counter|
     if number % counter == 0
         result = false
-    else 
+    else
       result = true
 }
 return result
-
 end
 
 # def prime?(number)

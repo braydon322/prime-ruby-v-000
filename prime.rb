@@ -9,7 +9,13 @@ def prime?(number)
     if number % 2 == 0
       false
     else
-      "Hello"
+      i = 5
+      while i < number/2
+        if number % i == 0
+          false
+        end
+        i+=1
+    
     end
   end
 

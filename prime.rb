@@ -10,7 +10,7 @@ elsif integer == 2
 else
   while i < integer/2
       if integer % i == 0
-        is_it_prime = false
+        false
         break
       end
     i+=1

@@ -1,13 +1,9 @@
 def prime?(number)
   if number < 0
     false
-  end
-
-  if number == 1
+elsif number == 1
     false
-  end
-
-  if number == 3
+elsif number == 3
     true
   end
 

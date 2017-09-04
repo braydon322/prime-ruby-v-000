@@ -4,7 +4,7 @@ max_value = number - 1
 new_array = []
 (1..max_value).each{|counter|
     if number % counter == 0
-        new_array << counter
+        false
     end
 }
 return new_array

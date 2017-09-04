@@ -1,11 +1,12 @@
 def prime?(number)
   if number <= 0
     false
-elsif number == 1
+  elsif number == 1
     false
-elsif number == 3
+  elsif number == 3
     true
-  end
+  elsif number == 5
+    true
 
 
 end

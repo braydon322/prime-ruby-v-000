@@ -6,7 +6,7 @@ i = 1
   elsif integer == 2
     true
   elsif integer > 2
-    while i < integer/2
+    while i < integer
         if integer % i == 0
           false
         end

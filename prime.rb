@@ -5,8 +5,12 @@ def prime?(number)
     false
   elsif number == 3
     true
-  elsif number == 5
-    true
+  elsif number > 3
+    if number % 2 == 0
+      false
+    else
+      "Hello"
+    end
   end
 
 

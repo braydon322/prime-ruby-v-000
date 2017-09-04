@@ -19,10 +19,6 @@ else
   x += 1
   end
 end
-if is_it_prime
-  true
-else
-  false
-end
+is_it_prime ? true : false
 
 end

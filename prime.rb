@@ -7,6 +7,7 @@ new_array = []
         result = false
     else
       result = true
+    end
 }
 return result
 end

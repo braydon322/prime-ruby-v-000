@@ -16,9 +16,8 @@ else
         break
       end
     end
-  x += 1
+  i += 1
   end
 end
 is_it_prime ? true : false
-
 end

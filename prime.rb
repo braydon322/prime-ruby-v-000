@@ -8,7 +8,7 @@ def prime?(integer)
 factors_array = (2..(integer - 1)).to_a
 i = 0
 while i < integer/2
-  factors_array[i].any? ? false : true
+  (integer % factors_array[i] == 0) ? false : true
   i+=1
 end
 end

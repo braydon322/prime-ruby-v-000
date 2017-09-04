@@ -7,9 +7,9 @@ elsif integer == 2
 elsif integer == 3
   true
 else
+  i = 5
   while i < integer
     is_it_prime = true
-    i = 5
     while i < (integer/2)
       if integer % i == 0
         is_it_prime = false

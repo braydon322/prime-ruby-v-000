@@ -39,7 +39,7 @@ is_it_odd = true
         end
         i += 1
       end
-    end  
+    end
   else
     return is_it_prime
   end

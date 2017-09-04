@@ -15,7 +15,8 @@ def prime?(number)
           false
         end
         i+=1
-    
+      end
+
     end
   end
 

@@ -18,19 +18,29 @@
 def prime?(number)
 odd_numbers = []
 is_it_odd = true
-is_it_prime = true
-
-
-
   if (number % 2 == 0)
-    is_it_odd = false
+    if number == 2
+      true
+    else
+      is_it_odd = false
+    end
   else
     is_it_odd = true
   end
-
-  if is_it_odd
-
+  
+  if is_it_odd = true
+    if number <= 1
+      false
+    elsif number >= 3
+      i = 1
+      while i < number
+        if number % i == 0
+          is_it_prime = true
+        end
+        i += 1
+      end
+    end  
   else
-    return is_it_odd
+    return is_it_prime
   end  
 end

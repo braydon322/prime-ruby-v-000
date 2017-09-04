@@ -18,6 +18,9 @@
 def prime?(number)
 odd_numbers = []
 is_it_odd = true
+is_it_prime = true
+
+
 
   if (number % 2 == 0)
     is_it_odd = false
@@ -25,4 +28,9 @@ is_it_odd = true
     is_it_odd = true
   end
 
+  if is_it_odd
+
+  else
+    return is_it_odd
+  end  
 end

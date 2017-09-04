@@ -16,15 +16,12 @@
 # end
 
 def prime?(number)
+odd_numbers = []
+is_it_odd? = true
 
-  # PRIME NUMBERS - 2, 3, 5, 7, 9, 11, 13, 17, 23
-  while number > 2
-    true
-  end
-  if number == 2
-    true
-  elsif number < 2
-    false
-  end
-  number = 1
+if number % 2 == 0
+  is_it_odd = false
+else
+  true
+
 end

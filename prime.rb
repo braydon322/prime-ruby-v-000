@@ -19,6 +19,7 @@ def prime?(number)
         end
         i += 2
       end
+      true
     end
   end
 

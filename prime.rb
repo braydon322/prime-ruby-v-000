@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(integer)
-i = 3
+i = 1
 is_it_prime = true
 
 if integer <= 1

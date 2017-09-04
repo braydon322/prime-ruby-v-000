@@ -9,13 +9,13 @@ def prime?(number)
     false
   elsif number % 3 == 0
     i = 1
-    while i * i <= number
-      if number % i == 0
+      while i < number
+        if number % i == 0
         false
+        end
+        i +=1
       end
       i += 2
-    end
-    true
   end
 
 end

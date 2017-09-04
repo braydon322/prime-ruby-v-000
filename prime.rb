@@ -2,6 +2,10 @@ def prime?(number)
   if number < 0
     false
   end
+
+  if number == 1
+    false
+  end
 end
 
     # i = 5

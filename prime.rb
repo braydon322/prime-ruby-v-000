@@ -1,7 +1,8 @@
 
 def prime?(number)
+max_value = number - 1
 new_array = []
-(1..number).each{|counter|
+(1..max_value).each{|counter|
     if number % counter == 0
         new_array << counter
     end

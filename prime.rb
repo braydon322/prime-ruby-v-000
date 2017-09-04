@@ -7,6 +7,7 @@ def prime?(number)
     true
   elsif number == 5
     true
+  end
 
 
 end

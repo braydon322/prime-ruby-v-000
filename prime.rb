@@ -6,6 +6,12 @@ def prime?(number)
   if number == 1
     false
   end
+
+  if number == 3
+    false
+  end
+
+  
 end
 
     # i = 5

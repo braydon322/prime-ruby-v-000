@@ -20,9 +20,9 @@ odd_numbers = []
 is_it_odd? = true
 
   if number % 2 == 0
-    is_it_odd? = false
+    !is_it_odd?
   else
-    is_it_odd? = true
+    is_it_odd?
   end
 
 end

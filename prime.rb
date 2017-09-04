@@ -19,7 +19,7 @@ else
     if is_it_prime
       true
     end
-  x+=1
+  x += 1
   end
 end
 

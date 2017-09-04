@@ -8,7 +8,7 @@ def prime?(number)
   elsif number % 2 == 0
     false
   elsif number % 3 == 0
-    i = 5
+    i = 1
     while i * i <= number
       if number % i == 0
         false

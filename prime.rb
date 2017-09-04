@@ -41,6 +41,5 @@ is_it_odd = true
       end
     end
   else
-    return is_it_prime
   end
 end

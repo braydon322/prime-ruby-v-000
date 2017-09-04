@@ -3,7 +3,7 @@ def prime?(integer)
 i = 3
 is_it_prime = true
 
-if integer < 0
+if integer <= 0
   false
 else
   while i < integer/2

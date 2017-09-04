@@ -5,7 +5,7 @@ def prime?(integer)
 # end
 
 
-factors_array = 2..(integer - 1).to_a
+factors_array = (2..(integer - 1)).to_a
 i = 0
 while i < integer/2
   factors_array[i].any? ? false : true

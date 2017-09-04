@@ -10,7 +10,7 @@ i = 1
         if integer % i == 0
           false
         end
+      i+= 1
     end
-    i+=1
   end
 end

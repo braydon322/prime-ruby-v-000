@@ -2,6 +2,7 @@ def prime?(number)
   if number < 0
     false
   end
+end
 
     # i = 5
     # w = 2

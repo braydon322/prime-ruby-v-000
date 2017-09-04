@@ -5,7 +5,7 @@ new_array = []
 result = nil
 (1..max_value).each{|counter|
     if number % counter == 0
-        result = false
+      result = false
     else
       result = true
     end

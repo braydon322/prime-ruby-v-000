@@ -11,6 +11,13 @@ else
     is_it_prime = true
     i = 5
     while i < (integer/2)
+      if integer % i == 0
+        is_it_prime = false
+        break
+      end
       
-    
+      x+=1
+    end
+
+
 end

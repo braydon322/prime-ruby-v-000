@@ -10,13 +10,12 @@ def prime?(number)
       false
     else
       i = 5
-      while i < number/2
+      while i < (number + 1)/2
         if number % i == 0
           false
         end
         i+=1
       end
-
     end
   end
 

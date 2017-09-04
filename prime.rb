@@ -15,13 +15,11 @@ else
         is_it_prime = false
         break
       end
-
-      x+=1
     end
-
     if is_it_prime
       true
     end
+      x+=1
   end
 end
 

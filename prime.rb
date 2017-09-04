@@ -1,7 +1,7 @@
 
 def prime?(number)
 new_array = []
-(1..number).each{|counter| 
+(1..number).each{|counter|
     if number % counter == 0
         new_array << counter
     end
@@ -33,6 +33,6 @@ end
 #       true
 #     end
 #   end
-# 
-# 
+#
+#
 # end

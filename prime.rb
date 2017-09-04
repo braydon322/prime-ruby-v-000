@@ -18,11 +18,6 @@ def prime?(number)
           false
         end
         i += 2
-
-
-
-
-
       end
     end
   end

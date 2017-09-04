@@ -3,7 +3,10 @@ def prime?(integer)
 i = 3
 is_it_prime = true
 
-while i < integer/2
+if integer < 0
+  false
+else
+    while i < integer/2
   if integer % i == 0
     is_it_prime = false
     break
@@ -11,5 +14,6 @@ while i < integer/2
   i+=1
 end
 true
+end
 
 end

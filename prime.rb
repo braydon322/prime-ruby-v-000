@@ -17,7 +17,6 @@
 
 def prime?(number)
 odd_numbers = []
-is_it_odd? = true
 
   if number % 2 == 0
     !is_it_odd?
